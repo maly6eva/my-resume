@@ -43,9 +43,9 @@ export const Main = () => {
                     >
                         <Photo src={photo} alt="photo"/>
                     </Tilt>
-                    <IconWrapper>
-                        <Icon iconId={'arrow'}/>
-                    </IconWrapper>
+                    {/*<IconWrapper>*/}
+                    {/*    <Icon iconId={'arrow'}/>*/}
+                    {/*</IconWrapper>*/}
                 </FlexWrapper>
             </Container>
         </StyledMain>
@@ -85,8 +85,6 @@ const MainText = styled.p`
     color: ${theme.colors.textBg};
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
     margin: 11px 0 29px;
 
     @media ${theme.media.mobile} {
@@ -136,10 +134,10 @@ const Photo = styled.img`
 
 const IconWrapper = styled.div`
     position: absolute;
-    top: 750px;
+    top: 700px;
     left: 500px;
 
-    @media screen and (max-width: 909px) {
+    @media  ${theme.media.tablet} {
         display: none;
     }
 `

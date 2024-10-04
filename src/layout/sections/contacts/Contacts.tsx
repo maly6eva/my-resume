@@ -24,6 +24,7 @@ export const Contacts = () => {
 };
 
 const StyledContacts = styled.section`
+   
 
 
 `
@@ -38,6 +39,7 @@ const SectionTitle = styled.h2`
 
 
 const Field = styled.input`
+    //position: relative;
     font-family: Montserrat, sans-serif;
     width: 100%;
     background-color: ${theme.colors.accent};
@@ -64,6 +66,7 @@ const FormLabel = styled.label`
 
 
 const StyledForm = styled.form`
+    position: relative;
     max-width: 530px;
     width: 100%;
     display: flex;

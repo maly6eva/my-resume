@@ -27,11 +27,15 @@ const StyledSkill = styled.div`
     width: 20%;
     margin: 20px 0 120px 0;
 
-
     @media screen and (max-width: 909px) {
         width: 33%;
     }
 
+    ${FlexWrapper} {
+        @media ${theme.media.mobile} {
+            width: 90px;
+            height: 90px;
+        }
 `
 
 

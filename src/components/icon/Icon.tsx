@@ -1,7 +1,6 @@
 import React from 'react';
 import iconsSprite from '../../assets/images/sprite.svg'
 import styled from "styled-components";
-import {theme} from "../../styles/Theme";
 
 
 type IconPropsType = {
@@ -21,9 +20,5 @@ export const Icon = (props: IconPropsType) => {
 };
 
 const IconSvg = styled.svg`
-        // @media ${theme.media.mobile} {
-    //     width: 88px;
-    //   height: 88px;
-
-}
+    
 `
