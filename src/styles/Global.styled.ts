@@ -46,10 +46,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     section {
-        padding: 130px 0;
+        padding: 30px 0;
 
         @media ${theme.media.mobile} {
-            padding: 100px 0;
+            padding: 20px 0;
         }
     }
 `

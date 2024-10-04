@@ -7,6 +7,7 @@ import {Skills} from "./layout/sections/skills/Skills";
 import {Footer} from "./layout/footer/Footer";
 import {Contacts} from "./layout/sections/contacts/Contacts";
 import {Particle} from "./components/ particle/ Particle";
+import {GoTopBtn} from "./components/goTopBtn/GoTopBtn";
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Skills/>
             <Contacts/>
             <Footer/>
+            <GoTopBtn/>
         </div>
     );
 }
