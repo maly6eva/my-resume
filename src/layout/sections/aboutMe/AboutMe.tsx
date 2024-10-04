@@ -22,7 +22,7 @@ export const AboutMe = () => {
 };
 
 const StyledAboutMe = styled.section`
-    min-height: 40vh;
+    //min-height: 40vh;
 `
 
 export const SectionTitle = styled.h2`
